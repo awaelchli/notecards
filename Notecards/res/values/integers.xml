@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Notecard Activity -->
+    <integer name="card_flip_time_full">500</integer>
+    <integer name="card_flip_time_half">250</integer>
+    <integer name="alpha_action_enabled">255</integer>
+    <integer name="alpha_action_disabled">90</integer>
+    <integer name="card_text_max_lines">5</integer>
+
+</resources>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ch.waelchli.activity.NotecardActivity" >
+
+    <item
+        android:id="@+id/action_new_notecard"
+        android:icon="@drawable/ic_action_new"
+        android:menuCategory="secondary"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_new_notecard"/>
+    <item
+        android:id="@+id/action_previous_page"
+        android:enabled="false"
+        android:icon="@drawable/ic_action_previous_item"
+        android:menuCategory="secondary"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_previous"/>
+    <item
+        android:id="@+id/action_next_page"
+        android:enabled="false"
+        android:icon="@drawable/ic_action_next_item"
+        android:menuCategory="secondary"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_next"/>
+
+</menu>

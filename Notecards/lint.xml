@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/ch/waelchli/pager/CardFaceViewPager.java" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/ch/waelchli/fragment/CollectionDialogFragment.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/ch/waelchli/fragment/NotecardFaceFragment.java" />
+    </issue>
+    <issue id="UnusedAttribute" severity="ignore" />
+</lint>

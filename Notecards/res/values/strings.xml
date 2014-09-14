@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notecards</string>
+
+    <!-- Notecard Activity -->
+
+    <string name="title_activity_notecard">Notecards</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_new_notecard">New</string>
+    <string name="description_remove_card">Remove this card from the collection</string>
+    <string name="description_turn_card">Turn this card.</string>
+    <string name="description_edit_card">Show additional controls for this card</string>
+    <string name="description_open_camera">Open the camera app to take a picture</string>
+    <string name="description_image_display">Display of the selected image for this card</string>
+    <string name="hint_answer">Answer, Solution &#8230;</string>
+    <string name="hint_question">Keyword, Question &#8230;</string>
+    <string name="page_index_delimeter">/</string>
+    <string name="message_no_camera">This device has no camera</string>
+    <string name="message_no_camera_app">No camera app installed</string>
+    <string name="message_no_sdcard">An SD card is required to store the images</string>
+    <string name="message_notecard_deleted">Notecard deleted</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Drawer -->
+
+    <string name="drawer_menu_collections">Collections</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_trash">Trash</string>
+    <string name="section_header_collections">My Collections</string>
+    <string name="description_drawer_item_icon">The icon of this list item</string>
+
+    <!-- Collection Fragment -->
+    
+    <string name="title_collections">Collections</string>
+    <string name="message_empty_collection">Add a new collection above to get started</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_delete_items">Delete items</string>
+    <string name="add_collection">Add</string>
+    <string name="dialog_new_collection">New Collection</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint_new_collection_name">Name</string>
+    <string name="message_no_name">Please choose a name to continue</string>
+
+</resources>

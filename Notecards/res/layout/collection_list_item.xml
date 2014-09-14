@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/collection_item"
+    android:layout_width="match_parent"
+    android:layout_height="?android:listPreferredItemHeightSmall"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="0dp"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <LinearLayout
+        android:id="@+id/collection_label_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/collection_name"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="?android:listPreferredItemPaddingLeft"
+            android:paddingRight="?android:listPreferredItemPaddingRight" />
+    </LinearLayout>
+
+    <!-- A button that, when pressed, will delete this list item row from its container. -->
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/action_remove_item"
+        android:padding="10dp"
+        android:src="@drawable/ic_list_remove" />
+
+</LinearLayout>

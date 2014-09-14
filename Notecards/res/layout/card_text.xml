@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Dummy item to prevent TextView from receiving focus -->
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!--
+     :nextFocusUp and :nextFocusLeft have been set to the id of this component
+     to prevent the dummy from receiving focus again
+    -->
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/card_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLines="@integer/card_text_max_lines"
+        android:nextFocusLeft="@id/card_text"
+        android:nextFocusUp="@id/card_text" />
+
+</merge>

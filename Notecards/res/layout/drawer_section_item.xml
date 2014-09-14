@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/section_header_label"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/drawer_item_margin_left"
+        android:paddingRight="@dimen/drawer_item_margin_right"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="?android:textColorPrimary" />
+
+</RelativeLayout>
